@@ -143,15 +143,8 @@ footer {
     height: 500px;
 }
 
-#footerInfo {
-    background-color: #F3F1ED;
-    width: 100%;
-    height: 300px;
-    display: flex;
 
-}
-
-ul>li {
+ul li {
     list-style: none;
 }
 
@@ -161,7 +154,7 @@ form {
     text-align: center;
     width: 100%;
     height: 200px;
-    background-color: #FBF9F4;
+    background-color: #c2b38e;
 }
 
 #tituloForm {
@@ -176,18 +169,19 @@ form {
     padding-bottom: 20px;
 }
 
+
 input {
     height: 35px;
     width: 250px;
     text-align: center;
     border-radius: 4px;
     outline: none;
-    border: 2px solid #ccc;
+    border: 2px solid #636363;
 }
 
 #enviar {
     margin-top: 30px;
-    background-color: #BBB1A3;
+    background-color: #c68a36;
     color: white;
     width: 225px;
     height: 35px;
@@ -195,53 +189,34 @@ input {
     border-radius: 5px;
 }
 
-article>ul {
+#footerInfo{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.apresentacao{
+    display: block;
+    text-align: center;
+    padding-top:50px;
+    color: #000000;
+    font-size: 20px;
+}
+
+
+#article1 {
+    box-sizing: border-box;
+    display: flex;
+    height: 300px;
+    padding: 25px;
+    width: 25%;
+    padding: 25px 25px 0 25px;
+
+}
+
+article ul {
     width: 100%;
     line-height: 30px;
 }
 
-#article1 {
-    box-sizing: border-box;
-    height: 300px;
-    padding: 25px;
-    width: 25%;
-    padding: 25px 25px 0 25px;
-
-}
-
-#article2 {
-    box-sizing: border-box;
-    height: 300px;
-    padding: 55px;
-    padding: 25px 25px 0 25px;
-    width: 25%;
-
-
-}
-
-#article3 {
-    box-sizing: border-box;
-    height: 300px;
-    padding: 25px;
-    width: 25%;
-    padding: 25px 25px 0 25px;
-
-}
-
-#article4 {
-    box-sizing: border-box;
-    height: 300px;
-    padding: 25px 25px 0 25px;
-    width: 25%;
-    padding: 25px;
-
-}
-#local{
-    padding-top: 20px;
-    
-}
-h5{
-    font-weight: bolder;
-    color: rgb(32, 189, 69);
-}
 

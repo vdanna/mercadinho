@@ -3,17 +3,25 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     width: 100%;
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bolder;
+    font-family: 'Montserrat';
+    font-weight: bold;
 }
 
-
+header{
+    width: 100%;
+    height: 250px;
+}
 header img {
     width: 100%;
+    height: 100%;
 }
 
 .menu {
@@ -148,51 +156,68 @@ ul li {
     list-style: none;
 }
 
-form {
-
-    padding-top: 30px;
-    text-align: center;
+form{
     width: 100%;
-    height: 200px;
+    margin: 0;
+    height: auto;
     background-color: #c2b38e;
+    text-align: center;
 }
 
 #tituloForm {
+    padding-top: 30px;
+    text-align: center;
     color: #1E5B93;
     font-size: 25px;
     font-weight: bolder;
     padding: 0px 0 10px 0;
+    font-family: sans-serif;
 }
 
-#textoForm {
-    font-size: 15px;
+#tituloForm h3{
     padding-bottom: 20px;
 }
 
+#tituloForm p{
+    font-size: 20px;
+    color: #818181;
+}
 
 input {
     height: 35px;
     width: 250px;
-    text-align: center;
     border-radius: 4px;
     outline: none;
     border: 2px solid #636363;
 }
 
+#campoForm{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around
+}
+
+.caixaFormulario{
+    display: flex;
+    flex-direction: column;
+}
+
 #enviar {
-    margin-top: 30px;
     background-color: #c68a36;
     color: white;
     width: 225px;
     height: 35px;
     border: none;
     border-radius: 5px;
+    margin-bottom: 15px;
 }
 
 #footerInfo{
     width:100%;
-    display: flex;
-    flex-direction: column;
+    display: block;
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .apresentacao{
@@ -204,19 +229,48 @@ input {
 }
 
 
-#article1 {
+#infos {
     box-sizing: border-box;
     display: flex;
-    height: 300px;
-    padding: 25px;
-    width: 25%;
-    padding: 25px 25px 0 25px;
-
 }
 
-article ul {
-    width: 100%;
+.textoFinal{
+    width: 350px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+#infos ul {
+    margin: 0;
+    padding: 10px;
+}
+
+.item1{
+    width: 300px;
+    padding-bottom: 20px;
+    text-align: justify;
     line-height: 30px;
 }
 
+.item2{
+    margin: 0;
+    width: 100%;
+    padding-bottom: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
 
+.item1 h5{
+    font-weight: bolder;
+    color: #000;
+    color: #EB9B17;
+    font-family: sans-serif;
+}
+
+
+.item2 h5{
+    font-weight: bolder;
+    color: #000;
+    color: #EB9B17;
+    font-family: sans-serif;
+}

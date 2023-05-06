@@ -61,7 +61,21 @@ header img {
     text-align: center;
 }
 
-#margarina {
+#paes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#higiene {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#frutas {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -114,7 +128,7 @@ button i{
     padding-right: 5px;
 }
 
-#parallax1 {
+#parallaxCarnes {
     border-top: 3px solid black;
     border-bottom: 3px solid black;
     background-image: url(../img/paralax/paralax\ carne.jpg);
@@ -134,11 +148,43 @@ h2 {
     border-bottom: 2px solid #ccc;
 }
 
-#parallax2 {
+#parallaxVegetais {
     border-top: 3px solid black;
     border-bottom: 3px solid black;
     margin-top: 45px;
     background-image: url(../img/paralax/paralax\ vegetais.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+    font-size: 75px;
+
+}
+
+#parallaxHigiene {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    margin-top: 45px;
+    background-image: url(../img/paralax/paralax\ limpeza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+    font-size: 75px;
+
+}
+
+#parallaxFrutas {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    margin-top: 45px;
+    background-image: url(../img/paralax/paralax\ frutas.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;

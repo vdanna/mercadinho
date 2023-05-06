@@ -109,6 +109,10 @@ div span {
     background-color: rgb(0, 96, 0);
 
 }
+button i{
+    height: auto;
+    padding-right: 5px;
+}
 
 #parallax1 {
     border-top: 3px solid black;
@@ -155,40 +159,52 @@ footer {
 ul li {
     list-style: none;
 }
-
+#qualidade{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 145px;
+    width: 100%;
+    background-color: #4f8fca;
+    color: white;
+    font-size: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+a>i{
+    padding-left: 70px;
+    padding-bottom: 20px;
+}
 form{
     width: 100%;
     margin: 0;
-    height: auto;
-    background-color: #c2b38e;
+    height:320px;
+    background-color: #ededed;
     text-align: center;
 }
 
 #tituloForm {
+    text-shadow: 1px 1px black;
     padding-top: 30px;
     text-align: center;
-    color: #1E5B93;
+    color: #4f8fca;
     font-size: 25px;
     font-weight: bolder;
     padding: 0px 0 10px 0;
     font-family: sans-serif;
 }
-
-#tituloForm h3{
-    padding-bottom: 20px;
-}
-
 #tituloForm p{
+    padding-bottom: 30px;
     font-size: 20px;
-    color: #818181;
+    color:#4f8fca;
 }
-
 input {
     height: 35px;
     width: 250px;
     border-radius: 4px;
     outline: none;
     border: 2px solid #636363;
+    padding-left: 5px;
 }
 
 #campoForm{
@@ -209,7 +225,12 @@ input {
     height: 35px;
     border: none;
     border-radius: 5px;
-    margin-bottom: 15px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+#enviar:hover{
+    background-color:#9b661a ;
+    cursor: pointer;
 }
 
 #footerInfo{
@@ -273,4 +294,22 @@ input {
     color: #000;
     color: #EB9B17;
     font-family: sans-serif;
+}
+h5{
+    font-weight: bolder;
+    color: #000;
+    color: #EB9B17;
+    font-family: sans-serif;
+
+}
+span i {
+    padding-top: 20px;
+}
+#rgm{
+    font-size: 15px;
+    width: 100%;
+    height: 30px;
+    background-color: #ea9115;
+    color: #fff;
+    text-align: center;
 }

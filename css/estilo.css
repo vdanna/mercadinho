@@ -43,6 +43,14 @@ header img {
     padding-top: 25px;
 }
 
+#doces{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 25px;
+}
+
 #vegetais {
     display: flex;
     flex-wrap: wrap;
@@ -155,6 +163,24 @@ h2 {
     color: #fff;
     font-size: 75px;
 }
+
+#parallaxDoces {
+    margin: 0;
+    padding: 0;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    background-image: url(../img/paralax/paralax\ doces.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 300px;
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+    font-size: 75px;
+}
+
 
 #parallaxVegetais {
     margin: 0;

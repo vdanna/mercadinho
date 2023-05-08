@@ -53,8 +53,6 @@ header img {
         display: none;
     }
 
-   
-
     .botaoSanduiche{
         width: 100%;
         background-color: #EB9B17;
@@ -62,6 +60,8 @@ header img {
         border: none;
         margin: 0;
         padding: 0;
+        position: fixed;
+        top: 0;
     }
     
     .botaoSanduiche img{
@@ -71,12 +71,17 @@ header img {
         padding: 0;
         width: 20px;
         height: 20px;
+
     }
     
     .menuSanduiche{
         background-color: #EB9B17;
         display: flex;
         flex-direction: column;
+        width: 100%;
+        height: fit-content;
+        position: fixed;
+        top: 20px;
     }
     .menuSanduiche a {
         display: none;
@@ -90,8 +95,58 @@ header img {
     .open{
         display: block;
     }
-    
-}
+
+    .categorias div {
+        display: flex;
+        width: 100%;
+        height: fit-content;
+        border: none;
+        border-bottom:2px solid #b4a5a5;
+        border-top: 2px solid #ccc;
+        border-radius: 0;
+    }
+
+    .categorias button{
+        display: none;
+    }
+
+    footer #qualidade {
+        display: none;
+    }
+
+    footer form{
+        width: 100%;
+        height: auto;
+    }
+
+    footer #campoForm{
+        display: block;
+        height: fit-content;
+    }
+
+    .caixaFormulario{
+        display: flex;
+        align-items: center;
+    }
+
+    footer .primeiraCaixa{
+        display: none;
+    }
+
+    footer .terceiraCaixa{
+        display: none;
+    }
+
+    footer .quartaCaixa{
+        display: none;
+    }
+
+    footer #rgm{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    }
 
 
 #carnesAves {
@@ -401,10 +456,11 @@ ul li {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
 }
-a>i{
+a>i{    
     padding-left: 70px;
     padding-bottom: 20px;
 }
+
 form{
     width: 100%;
     margin: 0;

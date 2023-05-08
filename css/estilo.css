@@ -53,11 +53,11 @@ header img {
         display: none;
     }
 
-    .open{
-        display: block;
-    }
+   
 
     .botaoSanduiche{
+        width: 100%;
+        background-color: #EB9B17;
         display: block;
         border: none;
         margin: 0;
@@ -78,11 +78,19 @@ header img {
         display: flex;
         flex-direction: column;
     }
-    
-    .menuSanduiche a{
+    .menuSanduiche a {
+        display: none;
+    }
+    .menuSanduiche.open a{
+        display: block;
         text-decoration: none;
         color: azure;
     }
+    
+    .open{
+        display: block;
+    }
+    
 }
 
 
@@ -115,6 +123,7 @@ header img {
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
+    padding-top: 25px;
 }
 
 #frutas {
@@ -122,6 +131,7 @@ header img {
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
+    padding-top: 25px;
 }
 
 #graos {
@@ -129,6 +139,7 @@ header img {
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
+    padding-top: 25px;
 }
 
 #paes {
@@ -136,6 +147,7 @@ header img {
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
+    padding-top: 25px;
 }
 
 #higiene {
@@ -143,6 +155,14 @@ header img {
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
+    padding-top: 25px;
+}
+#temperos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 25px;
 }
 
 

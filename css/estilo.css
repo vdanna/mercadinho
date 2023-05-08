@@ -38,6 +38,9 @@ header img {
     text-decoration: none;
     color: azure;
 }
+#menu a:hover{
+    text-decoration: underline;
+}
 
 .menuSanduiche{
     display: none;
@@ -47,106 +50,6 @@ header img {
     display: none;
 }
 
-@media (max-width:990px){
-    
-    #menu{
-        display: none;
-    }
-
-    .botaoSanduiche{
-        width: 100%;
-        background-color: #EB9B17;
-        display: block;
-        border: none;
-        margin: 0;
-        padding: 0;
-        position: fixed;
-        top: 0;
-    }
-    
-    .botaoSanduiche img{
-        background-color: #EB9B17;
-        border: none;
-        margin: 0;
-        padding: 0;
-        width: 20px;
-        height: 20px;
-
-    }
-    
-    .menuSanduiche{
-        background-color: #EB9B17;
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: fit-content;
-        position: fixed;
-        top: 20px;
-    }
-    .menuSanduiche a {
-        display: none;
-    }
-    .menuSanduiche.open a{
-        display: block;
-        text-decoration: none;
-        color: azure;
-    }
-    
-    .open{
-        display: block;
-    }
-
-    .categorias div {
-        display: flex;
-        width: 100%;
-        height: fit-content;
-        border: none;
-        border-bottom:2px solid #b4a5a5;
-        border-top: 2px solid #ccc;
-        border-radius: 0;
-    }
-
-    .categorias button{
-        display: none;
-    }
-
-    footer #qualidade {
-        display: none;
-    }
-
-    footer form{
-        width: 100%;
-        height: auto;
-    }
-
-    footer #campoForm{
-        display: block;
-        height: fit-content;
-    }
-
-    .caixaFormulario{
-        display: flex;
-        align-items: center;
-    }
-
-    footer .primeiraCaixa{
-        display: none;
-    }
-
-    footer .terceiraCaixa{
-        display: none;
-    }
-
-    footer .quartaCaixa{
-        display: none;
-    }
-
-    footer #rgm{
-        display: block;
-        width: 100%;
-        height: auto;
-    }
-    }
 
 
 #carnesAves {
@@ -538,6 +441,7 @@ input {
 #infos {
     box-sizing: border-box;
     display: flex;
+    justify-content: space-around;
 }
 
 .textoFinal{
@@ -598,3 +502,105 @@ span i {
     color: #fff;
     text-align: center;
 }
+#footer-mobile{
+    display: none;
+}
+@media (max-width:990px){
+    
+    #menu{
+        display: none;
+    }
+
+    .botaoSanduiche{
+        width: 100%;
+        background-color: #EB9B17;
+        display: block;
+        border: none;
+        margin: 0;
+        padding: 0;
+        position: fixed;
+        top: 0;
+    }
+    
+    .botaoSanduiche img{
+        background-color: #EB9B17;
+        border: none;
+        margin: 0;
+        padding: 0;
+        width: 20px;
+        height: 20px;
+
+    }
+    
+    .menuSanduiche{
+        background-color: #EB9B17;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: fit-content;
+        position: fixed;
+        top: 20px;
+    }
+    .menuSanduiche a {
+        display: none;
+    }
+    .menuSanduiche.open a{
+        display: block;
+        text-decoration: none;
+        color: azure;
+    }
+    
+    .open{
+        display: block;
+    }
+
+    .categorias div {
+        display: flex;
+        width: 100%;
+        height: fit-content;
+        border: none;
+        border-bottom:2px solid #b4a5a5;
+        border-top: 2px solid #ccc;
+        border-radius: 0;
+    }
+
+    .categorias button{
+        display: none;
+    }
+
+    footer #qualidade {
+        display: none;
+    }
+
+    footer form{
+        width: 100%;
+        height: auto;
+    }
+
+    footer #campoForm{
+        display: block;
+        height: fit-content;
+    }
+
+    .caixaFormulario{
+        display: flex;
+        align-items: center;
+    }
+    #footerInfo{
+        display: none;
+    }
+    #footer-mobile{
+        display: block;
+        
+        
+    }
+    #infos-mobile ul{
+        text-align: center;
+    }
+
+    footer #rgm{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    }

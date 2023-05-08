@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,17 +12,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Varela+Round&display=swap"
         rel="stylesheet">
+    
 
 </head>
 
 <body>
+    <script src="js/javascrypt.js"></script>
     <script src="https://kit.fontawesome.com/6a33765741.js" crossorigin="anonymous"></script>
     <header>
 
         <img src="img/logo/logo.jpg">
     </header>
     <main>
-        <nav class="menu">
+        <nav id="menu">
             <a href="#carnesAves">Carnes & Aves</a>
             <a href="#carnesAves">Peixes</a>
             <a href="#vegetais">Vegetais</a>
@@ -34,9 +35,23 @@
             <a href="#temperos">Temperos</a>
             <a href="#higiene">Limpeza e Higiene</a>
             <a href="#footerInfo">Sobre nós</a>
-            
         </nav>
         
+        <button class="botaoSanduiche" onclick="menuShow()"><img src="img/botao sanduiche.png" alt=""></button>
+
+        <nav class="menuSanduiche">
+            <a href="#carnesAves">Carnes & Aves</a>
+            <a href="#carnesAves">Peixes</a>
+            <a href="#vegetais">Vegetais</a>
+            <a href="#frutas">Frutas</a>
+            <a href="#graos">Grãos</a>
+            <a href="#doces">Doces</a>
+            <a href="#paes">Pães</a>
+            <a href="#temperos">Temperos</a>
+            <a href="#higiene">Limpeza e Higiene</a>
+            <a href="#footerInfo">Sobre nós</a>
+        </nav>
+
         <section class="categorias">
             <figure id="parallaxCarnes">
                 <h1>Carnes & Aves</h1>
